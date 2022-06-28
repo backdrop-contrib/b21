@@ -474,13 +474,28 @@ ul.primary li:not(.active) a {
 .front .block-views-promoted-cards-block .block-content {
   max-width: none;
 }
+.block-views-promoted-cards-block .views-view-grid-cols-3 {
+  grid-template-columns: repeat(1, 1fr);
+}
 .front .block-views-promoted-cards-block .views-grid-box {
-  padding: 0;
-  background-color: #fafafa;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0 0 0.5rem 0;
+  background-color: #f6f6f6;
 }
 .view-promoted-cards {
   padding-right: 0;
   padding-left: 0;
+}
+.view-promoted-cards .views-field {
+  padding: 0 1rem;
+}
+.view-promoted-cards .views-field-field-image {
+  padding: 0;
+}
+.view-promoted-cards h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 .view-promoted-cards .views-field-body {
   font-size: 1.125rem;
@@ -560,6 +575,10 @@ article .field {
   .block-hero .block-title {
     font-size: 6rem;
     line-height: 1.25;
+  }
+  .block-views-promoted-cards-block .views-view-grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
   }
 }
 
