@@ -466,6 +466,7 @@ ul.primary li:not(.active) a {
   padding: 1.5rem 0;
   font-size: 1.5rem;
 }
+
 /* Cards grid */
 .l-top .block-views-promoted-cards-block {
   margin: 0 0 4rem;
@@ -479,6 +480,7 @@ ul.primary li:not(.active) a {
 .front .block-views-promoted-cards-block .views-grid-box {
   border: none;
   border-radius: 0.25rem;
+  margin-bottom: 2rem;
   padding: 0 0 0.5rem 0;
   background-color: #f6f6f6;
 }
@@ -578,6 +580,9 @@ article .field {
   .block-views-promoted-cards-block .views-view-grid-cols-3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+  }
+  .front .block-views-promoted-cards-block .views-grid-box {
+    margin-bottom: 1rem;
   }
 }
 
