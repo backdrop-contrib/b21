@@ -1,0 +1,27 @@
+/**
+ * @file
+ * B21 colors for theme settings (color module).
+ */
+
+body,
+.front .l-top,
+.block-hero,
+.block-views-promoted-cards-block,
+.l-header ul.menu ul,
+ul.primary li.active a,
+.resizable-textarea .grippie {
+  background-color: #d1e4dd;
+}
+.cke_editable {
+  background-color: #ffffff;
+}
+.unpublished-indicator {
+  color: #d1e4dd;
+}
+.l-header ul.menu ul:before,
+.l-header ul.menu ul:after {
+  border-color: #d1e4dd transparent;
+}
+.l-header ul.menu ul:after {
+  border-color: #28303d transparent;
+}

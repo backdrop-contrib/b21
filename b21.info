@@ -1,0 +1,11 @@
+name = B21
+description = A minimalistic pastel-colored theme with basic Color module support.
+type = theme
+backdrop = 1.x
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+ckeditor_stylesheets[] = css/style.css
+
+; Dummy setting for the theme settings page to appear in the menu.
+settings[color] = true
