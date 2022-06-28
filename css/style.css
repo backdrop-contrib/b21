@@ -447,7 +447,7 @@ ul.primary li:not(.active) a {
 /* == Top + Main ============================== */
 /* Hero block */
 .block-hero {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
   color: #28303d;
   text-align: left;
 }
@@ -468,8 +468,7 @@ ul.primary li:not(.active) a {
 }
 /* Cards grid */
 .l-top .block-views-promoted-cards-block {
-  margin: -3.125rem 0 4rem;
-  padding-top: 4rem;
+  margin: 0 0 4rem;
 }
 .front .block-views-promoted-cards-block .block-content {
   max-width: none;
